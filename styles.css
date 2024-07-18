@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    border-bottom: 2px solid #e7b1cf;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
